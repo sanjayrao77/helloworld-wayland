@@ -40,7 +40,7 @@ could error. In those examples, any errors would be ignored and that can be terr
 
 Also, the examples I saw played fast and loose with frame updating. It's tricky and I believe I've handled it
 properly in this example. When the compositor doesn't want new frames, we should save updates and send them
-until the compositor becomes ready.
+after the compositor becomes ready.
 
 ## Minimal notes
 
